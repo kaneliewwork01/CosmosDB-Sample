@@ -14,9 +14,9 @@ namespace CoreSQL_Sample
         // Note: Container = Table,  item/document = row (JSON documents if SQL API)
 
         // The Azure Cosmos DB endpoint for running this sample.
-        private static readonly string EndpointUri = "https://01af7c3a-0ee0-4-231-b9ee.documents.azure.com:443/";
+        private static readonly string EndpointUri = "<Your Endpoint Uri>";
         // The primary key for the Azure Cosmos account.
-        private static readonly string PrimaryKey = "fI7cVKmxWJ6rfnMG7QY18hGMxdeIOZhb2a4J6WfGyvuUhd1ZyQVVEoT0d8VmDeV3umYRtLSb5AKAMHQzbAuO2g==";
+        private static readonly string PrimaryKey = "<Your Primary key>";
 
         // The Cosmos client instance
         private CosmosClient cosmosClient;
