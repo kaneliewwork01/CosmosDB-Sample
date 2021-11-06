@@ -18,6 +18,9 @@
 
 8. Partition Key. In terms of writing efficient queries, Cosmos DB allows you to group a set of items or data in your collection by a similar property determined by the partition key. It is essential to choose the partition key during the design phase of the applications as you cannot change the partition key once the container is created.
 
+## Full Tutorial
+https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-get-started
+
 ## To Test the app
 1. Clone the project, and replace the EndpointUri and PrimaryKey with your Azure Cosmos DB Account given. ![image](https://drive.google.com/uc?export=view&id=1kWHI_oqsohQtOoSJvpycwNgPJmu9OrwP)
 2. Run the console app project. It will Create database, container, add items, and query the table for the items. You may uncomment the rest of the function calls to explore the rest. ![image](https://drive.google.com/uc?export=view&id=1QS8Yi2FO8TdI_MlNGlP4Ywc6yLQ_LDxZ) ![image](https://drive.google.com/uc?export=view&id=1gTB4460ncCSGX9GvFalG_CA6SSMMo4vP)
