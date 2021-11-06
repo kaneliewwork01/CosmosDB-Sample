@@ -2,7 +2,7 @@
 #Sample SQL-API Azure Cosmos DB project with .Net Core 3.1 Console app in C#.
 
 ## Basic Understand of Azure Cosmos DB
-1. Is Database in Azure portal. First have to create an Azure account and proceed to create the Azure Cosmos DB Account. (https://azure.microsoft.com/en-us/try/cosmosdb/) Thus, obtained EndpointUri and PrimaryKey for the Azure Cosmos DB Account.
+1. Azure Cosmos DB is classified as NoSQL. Is Database in Azure portal. First have to create an Azure account and proceed to create the Azure Cosmos DB Account. (https://azure.microsoft.com/en-us/try/cosmosdb/) Thus, obtained EndpointUri and PrimaryKey for the Azure Cosmos DB Account.
 
 2. Interact with the database via CosmosClient. With different function. Such as CreateDatabaseIfNotExistsAsync, ReadItemAsync, CreateItemAsync, and so on.
 
